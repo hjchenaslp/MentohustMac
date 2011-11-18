@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F1A5C9C12CBB3340037A99F /* BetterAuthorizationSampleLib.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A5C9B12CBB3340037A99F /* BetterAuthorizationSampleLib.c */; };
+		0F1A5C9D12CBB3340037A99F /* BetterAuthorizationSampleLib.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A5C9B12CBB3340037A99F /* BetterAuthorizationSampleLib.c */; };
+		0F1A5C9F12CBB3510037A99F /* BetterAuthorizationSampleLibInstallTool.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A5C9E12CBB3510037A99F /* BetterAuthorizationSampleLibInstallTool.c */; };
+		0F1A5CA712CBB3EC0037A99F /* Common.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A5CA612CBB3EC0037A99F /* Common.c */; };
+		0F1A5CA812CBB3EC0037A99F /* Common.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A5CA612CBB3EC0037A99F /* Common.c */; };
+		0F1A5CB312CBB6B00037A99F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1A5CB212CBB6B00037A99F /* CoreFoundation.framework */; };
+		0F1A5D3612CBB7CA0037A99F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1A5CB212CBB6B00037A99F /* CoreFoundation.framework */; };
+		0F1A5D3712CBB7D90037A99F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F54253412C8ACCA0079377D /* Security.framework */; };
+		0F1A5D3C12CBB9A80037A99F /* HelperTool.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A5D3A12CBB9A80037A99F /* HelperTool.c */; };
+		0F1A5D5512CBBD560037A99F /* HelperTool in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0F1A5C5F12CBB0570037A99F /* HelperTool */; };
+		0F1A5D5612CBBD590037A99F /* InstallTool in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0F1A5C6612CBB0650037A99F /* InstallTool */; };
+		0F36DC4412CCBDB700725483 /* IconAqua.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0F36DC4312CCBDB700725483 /* IconAqua.icns */; };
+		0F36DCA012CD85ED00725483 /* ProcessUtility.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F36DC9F12CD85ED00725483 /* ProcessUtility.c */; };
+		0F54240712C82A410079377D /* NSTaskTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F54240612C82A410079377D /* NSTaskTest.m */; };
+		0F54244512C833730079377D /* dhcping in Resources */ = {isa = PBXBuildFile; fileRef = 0F54244012C833730079377D /* dhcping */; };
+		0F54244612C833730079377D /* dhcping.8 in Resources */ = {isa = PBXBuildFile; fileRef = 0F54244112C833730079377D /* dhcping.8 */; };
+		0F54244712C833730079377D /* mentohust in Resources */ = {isa = PBXBuildFile; fileRef = 0F54244212C833730079377D /* mentohust */; };
+		0F54244812C833730079377D /* mentohust.1 in Resources */ = {isa = PBXBuildFile; fileRef = 0F54244312C833730079377D /* mentohust.1 */; };
+		0F54244912C833730079377D /* README in Resources */ = {isa = PBXBuildFile; fileRef = 0F54244412C833730079377D /* README */; };
+		0F54245612C837590079377D /* 8021x.exe in Resources */ = {isa = PBXBuildFile; fileRef = 0F54245312C837590079377D /* 8021x.exe */; };
+		0F54245712C837590079377D /* SuConfig.dat in Resources */ = {isa = PBXBuildFile; fileRef = 0F54245412C837590079377D /* SuConfig.dat */; };
+		0F54245812C837590079377D /* W32N55.dll in Resources */ = {isa = PBXBuildFile; fileRef = 0F54245512C837590079377D /* W32N55.dll */; };
+		0F54253512C8ACCA0079377D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F54253412C8ACCA0079377D /* Security.framework */; };
+		0F54261F12C997960079377D /* PrefsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F54261E12C997960079377D /* PrefsWindow.xib */; };
+		0F5426F212C9D3BD0079377D /* PrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5426F112C9D3BD0079377D /* PrefsController.m */; };
+		0F54277A12C9DEA80079377D /* mentohust.conf in Resources */ = {isa = PBXBuildFile; fileRef = 0F54277912C9DEA80079377D /* mentohust.conf */; };
+		0F5427D512C9E9520079377D /* Preferences.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F5427D412C9E9520079377D /* Preferences.plist */; };
+		0F5428A112CAD40C0079377D /* ShellUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5428A012CAD40C0079377D /* ShellUtility.m */; };
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* mentohust_for_macAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* mentohust_for_macAppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F1A5C7612CBB0970037A99F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F1A5C5E12CBB0570037A99F;
+			remoteInfo = HelperTool;
+		};
+		0F1A5C7812CBB0970037A99F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F1A5C6512CBB0650037A99F;
+			remoteInfo = InstallTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0F1A5D5912CBBD770037A99F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				0F1A5D5612CBBD590037A99F /* InstallTool in CopyFiles */,
+				0F1A5D5512CBBD560037A99F /* HelperTool in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F1A5C5F12CBB0570037A99F /* HelperTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelperTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1A5C6612CBB0650037A99F /* InstallTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InstallTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1A5C9A12CBB30A0037A99F /* BetterAuthorizationSampleLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetterAuthorizationSampleLib.h; sourceTree = "<group>"; };
+		0F1A5C9B12CBB3340037A99F /* BetterAuthorizationSampleLib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BetterAuthorizationSampleLib.c; sourceTree = "<group>"; };
+		0F1A5C9E12CBB3510037A99F /* BetterAuthorizationSampleLibInstallTool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BetterAuthorizationSampleLibInstallTool.c; sourceTree = "<group>"; };
+		0F1A5CA512CBB3EC0037A99F /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		0F1A5CA612CBB3EC0037A99F /* Common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Common.c; sourceTree = "<group>"; };
+		0F1A5CB212CBB6B00037A99F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		0F1A5D3A12CBB9A80037A99F /* HelperTool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HelperTool.c; sourceTree = "<group>"; };
+		0F36DC4312CCBDB700725483 /* IconAqua.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = IconAqua.icns; sourceTree = "<group>"; };
+		0F36DC9E12CD85ED00725483 /* ProcessUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessUtility.h; sourceTree = "<group>"; };
+		0F36DC9F12CD85ED00725483 /* ProcessUtility.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ProcessUtility.c; sourceTree = "<group>"; };
+		0F54240512C82A410079377D /* NSTaskTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTaskTest.h; sourceTree = "<group>"; };
+		0F54240612C82A410079377D /* NSTaskTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTaskTest.m; sourceTree = "<group>"; };
+		0F54244012C833730079377D /* dhcping */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = dhcping; sourceTree = "<group>"; };
+		0F54244112C833730079377D /* dhcping.8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dhcping.8; sourceTree = "<group>"; };
+		0F54244212C833730079377D /* mentohust */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mentohust; sourceTree = "<group>"; };
+		0F54244312C833730079377D /* mentohust.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = mentohust.1; sourceTree = "<group>"; };
+		0F54244412C833730079377D /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		0F54245312C837590079377D /* 8021x.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = 8021x.exe; sourceTree = "<group>"; };
+		0F54245412C837590079377D /* SuConfig.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = SuConfig.dat; sourceTree = "<group>"; };
+		0F54245512C837590079377D /* W32N55.dll */ = {isa = PBXFileReference; lastKnownFileType = file; path = W32N55.dll; sourceTree = "<group>"; };
+		0F54253412C8ACCA0079377D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0F54261E12C997960079377D /* PrefsWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrefsWindow.xib; sourceTree = "<group>"; };
+		0F5426F012C9D3BD0079377D /* PrefsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefsController.h; sourceTree = "<group>"; };
+		0F5426F112C9D3BD0079377D /* PrefsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefsController.m; sourceTree = "<group>"; };
+		0F54277912C9DEA80079377D /* mentohust.conf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mentohust.conf; sourceTree = "<group>"; };
+		0F5427D412C9E9520079377D /* Preferences.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Preferences.plist; sourceTree = "<group>"; };
+		0F54289F12CAD40C0079377D /* ShellUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShellUtility.h; sourceTree = "<group>"; };
+		0F5428A012CAD40C0079377D /* ShellUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShellUtility.m; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* mentohust_for_macAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mentohust_for_macAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* mentohust_for_macAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mentohust_for_macAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* mentohust_for_mac_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mentohust_for_mac_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* mentohust_for_mac-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "mentohust_for_mac-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* mentohust for mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mentohust for mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F1A5C5D12CBB0570037A99F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1A5D3612CBB7CA0037A99F /* CoreFoundation.framework in Frameworks */,
+				0F1A5D3712CBB7D90037A99F /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F1A5C6412CBB0650037A99F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0F54253512C8ACCA0079377D /* Security.framework in Frameworks */,
+				0F1A5CB312CBB6B00037A99F /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0F1A5CA012CBB37A0037A99F /* BAS */,
+				256AC3D80F4B6AC300CF3369 /* mentohust_for_macAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* mentohust_for_macAppDelegate.m */,
+				0F5426F012C9D3BD0079377D /* PrefsController.h */,
+				0F5426F112C9D3BD0079377D /* PrefsController.m */,
+				0F54289F12CAD40C0079377D /* ShellUtility.h */,
+				0F5428A012CAD40C0079377D /* ShellUtility.m */,
+				0F1A5CA512CBB3EC0037A99F /* Common.h */,
+				0F1A5CA612CBB3EC0037A99F /* Common.c */,
+				0F1A5D3A12CBB9A80037A99F /* HelperTool.c */,
+				0F54240512C82A410079377D /* NSTaskTest.h */,
+				0F54240612C82A410079377D /* NSTaskTest.m */,
+				0F36DC9E12CD85ED00725483 /* ProcessUtility.h */,
+				0F36DC9F12CD85ED00725483 /* ProcessUtility.c */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		0F1A5CA012CBB37A0037A99F /* BAS */ = {
+			isa = PBXGroup;
+			children = (
+				0F1A5C9E12CBB3510037A99F /* BetterAuthorizationSampleLibInstallTool.c */,
+				0F1A5C9B12CBB3340037A99F /* BetterAuthorizationSampleLib.c */,
+				0F1A5C9A12CBB30A0037A99F /* BetterAuthorizationSampleLib.h */,
+			);
+			name = BAS;
+			sourceTree = "<group>";
+		};
+		0F54243F12C833730079377D /* mentohust */ = {
+			isa = PBXGroup;
+			children = (
+				0F54244012C833730079377D /* dhcping */,
+				0F54244112C833730079377D /* dhcping.8 */,
+				0F54244212C833730079377D /* mentohust */,
+				0F54244312C833730079377D /* mentohust.1 */,
+				0F54244412C833730079377D /* README */,
+			);
+			path = mentohust;
+			sourceTree = "<group>";
+		};
+		0F54245212C837590079377D /* ruijiefiles */ = {
+			isa = PBXGroup;
+			children = (
+				0F54277912C9DEA80079377D /* mentohust.conf */,
+				0F54245312C837590079377D /* 8021x.exe */,
+				0F54245412C837590079377D /* SuConfig.dat */,
+				0F54245512C837590079377D /* W32N55.dll */,
+			);
+			path = ruijiefiles;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F54253412C8ACCA0079377D /* Security.framework */,
+				0F1A5CB212CBB6B00037A99F /* CoreFoundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* mentohust for mac.app */,
+				0F1A5C5F12CBB0570037A99F /* HelperTool */,
+				0F1A5C6612CBB0650037A99F /* InstallTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* mentohust for mac */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "mentohust for mac";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* mentohust_for_mac_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0F36DC4312CCBDB700725483 /* IconAqua.icns */,
+				0F54245212C837590079377D /* ruijiefiles */,
+				0F54243F12C833730079377D /* mentohust */,
+				8D1107310486CEB800E47090 /* mentohust_for_mac-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				0F54261E12C997960079377D /* PrefsWindow.xib */,
+				0F5427D412C9E9520079377D /* Preferences.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F1A5C5E12CBB0570037A99F /* HelperTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F1A5C7412CBB0680037A99F /* Build configuration list for PBXNativeTarget "HelperTool" */;
+			buildPhases = (
+				0F1A5C5C12CBB0570037A99F /* Sources */,
+				0F1A5C5D12CBB0570037A99F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelperTool;
+			productName = HelperTool;
+			productReference = 0F1A5C5F12CBB0570037A99F /* HelperTool */;
+			productType = "com.apple.product-type.tool";
+		};
+		0F1A5C6512CBB0650037A99F /* InstallTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F1A5C7512CBB0680037A99F /* Build configuration list for PBXNativeTarget "InstallTool" */;
+			buildPhases = (
+				0F1A5C6312CBB0650037A99F /* Sources */,
+				0F1A5C6412CBB0650037A99F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstallTool;
+			productName = InstallTool;
+			productReference = 0F1A5C6612CBB0650037A99F /* InstallTool */;
+			productType = "com.apple.product-type.tool";
+		};
+		8D1107260486CEB800E47090 /* mentohust for mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "mentohust for mac" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				0F1A5D5912CBBD770037A99F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F1A5C7712CBB0970037A99F /* PBXTargetDependency */,
+				0F1A5C7912CBB0970037A99F /* PBXTargetDependency */,
+			);
+			name = "mentohust for mac";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "mentohust for mac";
+			productReference = 8D1107320486CEB800E47090 /* mentohust for mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "mentohust for mac" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* mentohust for mac */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* mentohust for mac */,
+				0F1A5C5E12CBB0570037A99F /* HelperTool */,
+				0F1A5C6512CBB0650037A99F /* InstallTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				0F54244512C833730079377D /* dhcping in Resources */,
+				0F54244612C833730079377D /* dhcping.8 in Resources */,
+				0F54244712C833730079377D /* mentohust in Resources */,
+				0F54244812C833730079377D /* mentohust.1 in Resources */,
+				0F54244912C833730079377D /* README in Resources */,
+				0F54245612C837590079377D /* 8021x.exe in Resources */,
+				0F54245712C837590079377D /* SuConfig.dat in Resources */,
+				0F54245812C837590079377D /* W32N55.dll in Resources */,
+				0F54261F12C997960079377D /* PrefsWindow.xib in Resources */,
+				0F54277A12C9DEA80079377D /* mentohust.conf in Resources */,
+				0F5427D512C9E9520079377D /* Preferences.plist in Resources */,
+				0F36DC4412CCBDB700725483 /* IconAqua.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F1A5C5C12CBB0570037A99F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1A5C9C12CBB3340037A99F /* BetterAuthorizationSampleLib.c in Sources */,
+				0F1A5CA712CBB3EC0037A99F /* Common.c in Sources */,
+				0F1A5D3C12CBB9A80037A99F /* HelperTool.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F1A5C6312CBB0650037A99F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1A5C9F12CBB3510037A99F /* BetterAuthorizationSampleLibInstallTool.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* mentohust_for_macAppDelegate.m in Sources */,
+				0F54240712C82A410079377D /* NSTaskTest.m in Sources */,
+				0F5426F212C9D3BD0079377D /* PrefsController.m in Sources */,
+				0F5428A112CAD40C0079377D /* ShellUtility.m in Sources */,
+				0F1A5C9D12CBB3340037A99F /* BetterAuthorizationSampleLib.c in Sources */,
+				0F1A5CA812CBB3EC0037A99F /* Common.c in Sources */,
+				0F36DCA012CD85ED00725483 /* ProcessUtility.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F1A5C7712CBB0970037A99F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F1A5C5E12CBB0570037A99F /* HelperTool */;
+			targetProxy = 0F1A5C7612CBB0970037A99F /* PBXContainerItemProxy */;
+		};
+		0F1A5C7912CBB0970037A99F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F1A5C6512CBB0650037A99F /* InstallTool */;
+			targetProxy = 0F1A5C7812CBB0970037A99F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F1A5C6112CBB0580037A99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = HelperTool;
+			};
+			name = Debug;
+		};
+		0F1A5C6212CBB0580037A99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = HelperTool;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		0F1A5C6812CBB0650037A99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = InstallTool;
+			};
+			name = Debug;
+		};
+		0F1A5C6912CBB0650037A99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = InstallTool;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = mentohust_for_mac_Prefix.pch;
+				INFOPLIST_FILE = "mentohust_for_mac-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "mentohust for mac";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = mentohust_for_mac_Prefix.pch;
+				INFOPLIST_FILE = "mentohust_for_mac-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "mentohust for mac";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F1A5C7412CBB0680037A99F /* Build configuration list for PBXNativeTarget "HelperTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F1A5C6112CBB0580037A99F /* Debug */,
+				0F1A5C6212CBB0580037A99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F1A5C7512CBB0680037A99F /* Build configuration list for PBXNativeTarget "InstallTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F1A5C6812CBB0650037A99F /* Debug */,
+				0F1A5C6912CBB0650037A99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "mentohust for mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "mentohust for mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
